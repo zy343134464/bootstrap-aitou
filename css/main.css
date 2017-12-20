@@ -347,3 +347,35 @@ li{
     color: #ccc;
     text-align: right;
 }
+
+.form-container  {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#signup,
+#login{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#signup .btn-primary,
+#login .btn-primary{
+    background-color: #ea0c3c;
+    border-color: #ea0c3c;
+}
+#signup .btn-primary:hover,
+#signup .btn-primary.focus,
+#signup .btn-primary:focus,
+#signup .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary,
+#signup .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    background-color: #d00e38;
+    border-color: #d00e38;
+}
+#login .btn-primary:hover,
+#login .btn-primary.focus,
+#login .btn-primary:focus,
+#login .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary,
+#login .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    background-color: #d00e38;
+    border-color: #d00e38;
+}
